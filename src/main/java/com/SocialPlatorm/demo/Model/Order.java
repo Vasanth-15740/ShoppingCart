@@ -1,4 +1,4 @@
-package Model;
+package com.SocialPlatorm.demo.Model;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;
@@ -14,7 +14,7 @@ public class Order {
     @Id
     private String id;
     private String userId;
-    private List<CartItem> orderItems;
+    private List<Model.CartItem> orderItems;
     private Double totalAmount;
     private String paymentStatus;
     private String paymentIntentId;

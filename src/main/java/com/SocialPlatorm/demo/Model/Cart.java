@@ -1,4 +1,4 @@
-package Model;
+package com.SocialPlatorm.demo.Model;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;
@@ -14,5 +14,5 @@ public class Cart {
     @Id
     private String id;
     private String userId;
-    private List<CartItem> items;
+    private List<Model.CartItem> items;
 }

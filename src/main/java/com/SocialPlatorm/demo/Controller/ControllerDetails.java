@@ -1,6 +1,6 @@
 package com.SocialPlatorm.demo.Controller;
 
-import Service.ServiceDetails;
+import com.SocialPlatorm.demo.Service.ServiceDetails;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
